@@ -1,0 +1,29 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "Proyecto en angular 1.6",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clauloayza/prueba.git"
+  },
+  "keywords": [
+    "angular",
+    "js",
+    "claudia"
+  ],
+  "author": "Claudia Loayza M.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clauloayza/prueba/issues"
+  },
+  "homepage": "https://github.com/Clauloayza/prueba#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp-css-condense": "^1.1.2",
+    "jquery": "^3.2.1"
+  }
+}

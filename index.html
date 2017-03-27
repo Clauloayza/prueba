@@ -9,8 +9,12 @@
 	<script src="js/main.js"></script>
 </head>
 <body ng-controller="TaskList">
-	
-		{{ titulo }}
+	<ul>
+		<li ng-repeat = "task in tasks"></li>
+		{{ task.tarea }} : {{ task.descripcion}}
+	</ul>
+		{{ tasks[0].tarea }}
 	<input type="text" ng-model="titulo">
+	<button ng-Click="addTask">Agregar tarea</button>
 </body>
 </html>
